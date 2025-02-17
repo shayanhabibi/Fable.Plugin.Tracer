@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <FablePackageType>library</FablePackageType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>Fable.Plugin.Tracer</PackageId>
+    <RootNamespace>Fable.Plugin.Tracer</RootNamespace>
+    <AssemblyName>Fable.Plugin.Tracer</AssemblyName>
+    <Company>F# community</Company>
+    <Description>Fable Plugin helper</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Fable;F#;FSharp;fable-javascript;Plugin;AST;Json;Compiler</PackageTags>
+    <Authors>Shayan Habibi and contributors</Authors>
+    <Copyright>Copyright (c) Shayan Habibi 2025</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\Library.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

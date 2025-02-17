@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.Plugin.Tracer", "Fable.Plugin.Tracer.fsproj", "{D550485B-A00B-4B54-A580-940576F4AEC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{59B701E7-92E3-448C-AEA7-BD413577638F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{F901E4DA-8099-4375-943C-2C77FC051029}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		README.md = README.md
+		TODO.md = TODO.md
+		paket.lock = paket.lock
+		paket.references = paket.references
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D550485B-A00B-4B54-A580-940576F4AEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D550485B-A00B-4B54-A580-940576F4AEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D550485B-A00B-4B54-A580-940576F4AEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D550485B-A00B-4B54-A580-940576F4AEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
