@@ -2,6 +2,10 @@
 
 A single file helper for Fable plugin developers or maintainers to improve diagnostics when investigating AST transformations.
 
+## Example
+
+An example output from a trace with no depth limit in combination with just one of the emissions presented in JSON form are included in the examples folder.
+
 ## API
 
 The namespace includes a static `Settings` class that maintains the runtime information when compiling with Fable.
